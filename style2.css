@@ -1,0 +1,134 @@
+.product {
+  padding: 10px 5px;
+  background: rgb(240, 240, 240);
+}
+.product-head {
+  text-align: center;
+}
+.product h1 {
+  font-size: 50px;
+  padding: 60px 0;
+}
+.product-card {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.card {
+  line-height: 25px;
+  margin: 40px;
+  width: 200px;
+  text-align: center;
+}
+
+.p-button {
+  margin-top: 5px;
+  padding: 6px 20px;
+  font-size: 12px;
+  border-radius: 20px;
+  background-color: rgb(44, 111, 255);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.product-card img {
+  width: 90%;
+  object-fit: cover;
+}
+.iphone-p2 {
+  padding: 20px 0 0;
+  background: white;
+  text-align: center;
+  color: black;
+  line-height: 40px;
+  width: 100%;
+  overflow: hidden;
+}
+.iphone-p2 img {
+  width: 85%;
+  margin-top: 15px;
+  height: 100%;
+  object-fit: cover;
+}
+.iphone-p2 h1 {
+  background: linear-gradient(
+    to right,
+    #2ca2b4,
+    #5598de 24%,
+    #7f87ff 45%,
+    #f65aad 76%,
+    #ec3d43 22%
+  );
+
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.ipad-p2 {
+  line-height: 40px;
+  overflow: hidden;
+  text-align: center;
+}
+.ipad-p2 h1 {
+  font-size: 50px;
+}
+.ipad-p2 img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+.mac-p2 {
+  padding: 20px 0 0;
+  background: black;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  width: 100%;
+  overflow: hidden;
+}
+.mac-p2 img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+.mac-p3 {
+  padding: 20px 0 0;
+  background: white;
+  text-align: center;
+  color: black;
+  line-height: 40px;
+  width: 100%;
+  overflow: hidden;
+}
+.mac-p3 img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  padding-bottom: 40px;
+}
+.card .p-img img {
+  /* width: 5o%; */
+}
+@media (max-width: 768px) {
+  .product-head h1 {
+    font-size: 28px;
+  }
+  .product-card {
+    /* margin: 1% 30%; */
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .card {
+    line-height: 25px;
+    margin: 20px;
+    width: 350px;
+    text-align: center;
+  }
+}
