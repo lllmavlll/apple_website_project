@@ -122,6 +122,12 @@
     display: grid;
     grid-template-columns: auto auto;
   }
+  .card {
+    line-height: 25px;
+    margin: 20px;
+    width: 70%px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
