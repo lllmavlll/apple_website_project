@@ -114,6 +114,16 @@
 .card .p-img img {
   /* width: 5o%; */
 }
+@media (max-width: 1040px) {
+  .product-card {
+    /* margin: 1% 30%; */
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
 @media (max-width: 768px) {
   .product-head h1 {
     font-size: 28px;
@@ -131,4 +141,31 @@
     width: 350px;
     text-align: center;
   }
+  .p-button {
+    height: 40px;
+    width: 120px;
+    margin-top: 5px;
+    padding: 6px 20px;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: rgb(44, 111, 255);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  #btn {
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+    padding: 6px 20px;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: rgb(44, 111, 255);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
 }
+
