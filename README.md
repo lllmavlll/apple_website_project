@@ -15,7 +15,7 @@ Welcome to the "E-commerce Website for Apple Products." This project aims to dev
 * Font Awesome: Used for icons and graphical elements.
 
 ## Usage
-To view the website, open the index.html file in a web browser of your choice. You should see the homepage of the Royal Enfield website with its content and styling.
+To view the website, open the index.html file in a web browser of your choice. You should see the homepage of the Apple website with its content and styling.
 
 You can go ahead and explore the website and navigate through its different sections. The website is designed to be responsive, so you can also view it on other devices and screen sizes.
 
